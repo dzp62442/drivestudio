@@ -68,7 +68,7 @@ Follow these steps:
 #-- Set conda env
 conda create -n segformer python=3.8
 conda activate segformer
-pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 matplotlib scikit-image -f https://download.pytorch.org/whl/torch_stable.html
 
 #-- Install mmcv-full
 pip install timm==0.3.2 pylint debugpy opencv-python-headless attrs ipython tqdm imageio scikit-image omegaconf
